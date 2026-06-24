@@ -1,3 +1,6 @@
-let tempc = prompt ("input degree in celcious", "");
-let farh = (tempc * 9/5) +32;
-alert(farh);
+let num = Number(prompt("input number", ""));
+if (num * 2 === 0) {
+    alert ("even")
+} else{
+    alert("odd")
+}
