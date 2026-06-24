@@ -1,6 +1,16 @@
-let name = "knomic";
-console.log(name)
-let age = 20;
-console.log(age)
-let course = "information systems";
-console.log(course)
+let username = prompt("input username", "");
+if (username === "admin") {
+    let pass = prompt ("password", "")
+    if (pass === "kingpinto12") {
+        alert("welcome")
+    } else if (pass === "") {
+        alert("cancelled")
+    } else {(pass !== "kingpinto12") 
+        alert("wrong password")
+    }
+}
+if (username === "") {
+    alert("cancel")
+} else {(username !== "amdin") 
+    alert("wrong user")
+}
