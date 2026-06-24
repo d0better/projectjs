@@ -1,6 +1,8 @@
 let num = Number(prompt("input number", ""));
-if (num * 2 === 0) {
-    alert ("even")
-} else{
-    alert("odd")
+if (num > 0) {
+    alert ("positive")
+} else if (num < 0) {
+    alert("negative")
+} else {
+    alert(0)
 }
