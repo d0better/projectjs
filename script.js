@@ -1,5 +1,3 @@
-for (let i = 1; i <= 50; i++) {
-    if (i % 3 !== 0) {
-        console.log(i)
-    }
-}
+let tempc = prompt ("input degree in celcious", "");
+let farh = (tempc * 9/5) +32;
+alert(farh);
