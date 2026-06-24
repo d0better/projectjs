@@ -1,4 +1,5 @@
-let number = 50;
-if (number % 2 == 0) {
-    alert("the number is even")
-} else (alert("number is odd"))
+for (let i = 1; i <= 50; i++) {
+    if (i % 3 !== 0) {
+        console.log(i)
+    }
+}
