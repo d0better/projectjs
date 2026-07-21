@@ -1,5 +1,8 @@
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-let evenNumbers = numbers.filter(function(num) {
-    return num % 2 === 0
+let lenghts = ["bilbo", "gandalf","Nazgul"].map(item => item.length);
+console.log(lenghts)
+
+let prices = [10, 20, 30]
+let doubled = prices.map(function(price) {
+    return price * 2
 });
-console.log(evenNumbers)
+console.log(doubled);
