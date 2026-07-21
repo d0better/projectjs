@@ -1,13 +1,5 @@
-let users = [
-    {name: "John", age: 18},
-    {name: "Sarah", age: 25},
-    {name: "Mike", age: 30}
-];
-let user = users.find(function(person) {
-    return person.age > 20 ;
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let evenNumbers = numbers.filter(function(num) {
+    return num % 2 === 0
 });
-let index = users.findIndex(function(person) {
-    return person.age > 20;
-});
-console.log(user);
-console.log(index);
+console.log(evenNumbers)
